@@ -1,0 +1,59 @@
+{
+  "deviceList": [
+    {
+      "deviceName": "Galaxy S10e",
+      "platformVersion": "9.0",
+      "platformName": "Android",
+      "id": "R28M51Y8DDL",
+      "app": "/Users/stanislavhrebeniuk/Downloads/app-alpha-debug.apk"
+    },
+    {
+      "deviceName": "Galaxy S9",
+      "platformVersion": "9",
+      "platformName": "Android",
+      "id": "4933334b51573398",
+      "app": "/Users/stanislavhrebeniuk/Downloads/app-alpha-debug.apk"
+    },
+    {
+      "deviceName": "Nexus 5X",
+      "platformVersion": "8.1.0",
+      "platformName": "Android",
+      "id": "018add6465822bea",
+      "app": "/Users/stanislavhrebeniuk/Downloads/app-alpha-debug.apk"
+    },
+    {
+      "deviceName": "Galaxy A3 (2016)",
+      "platformVersion": "7.0",
+      "platformName": "Android",
+      "id": "31003977a1131343",
+      "app": "/Users/stanislavhrebeniuk/Downloads/app-alpha-debug.apk"
+    },
+    {
+      "deviceName": "Nexus 5",
+      "platformVersion": "6.0.1",
+      "platformName": "Android",
+      "id": "07623adc00e1a9ae",
+      "app": "/Users/stanislavhrebeniuk/Downloads/app-alpha-debug.apk"
+    },
+    {
+      "deviceName": "iPhone X",
+      "platformVersion": "12.3.1",
+      "platformName": "iOS",
+      "xcodeSigningId": "iPhone Developer",
+      "automationName": "XCUITest",
+      "udid": "61a22a56a7b3e715bc4a5517d9d839e42e38de63",
+      "xcodeOrgId": "44GZA2S45U",
+      "app": "Users/stanislavhrebeniuk/Alpha/Alpha.ipa"
+    },
+    {
+      "deviceName": "iPhone Xr",
+      "platformVersion": "13.1.2",
+      "platformName": "iOS",
+      "xcodeSigningId": "iPhone Developer",
+      "automationName": "XCUITest",
+      "udid": "00008020-00024CC10E3B002E",
+      "xcodeOrgId": "44GZA2S45U",
+      "app": "Users/stanislavhrebeniuk/Alpha/Alpha.ipa"
+    }
+  ]
+}
