@@ -1,6 +1,9 @@
 # from src.main.pyhton.utils.constants import logins_and_passowords
 
 from unittest import TestCase
+from src.tests.utils.DriverFactory import get_driver
+from src.main.pyhton.utils.constants.DeviceCapabilities import Devices
+
 from src.main.pyhton.pages.ios import LoginIOS
 from appium import webdriver
 from appium.webdriver.common.mobileby import By
@@ -26,7 +29,7 @@ ios_caps = {
 }
 
 # def FindMainLogIn():
-#     driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", ios_caps)
+#     driver = get_driver(Devices.IOS)
 #     wait = WebDriverWait(driver, 10)
 #     elem = wait.until(EC.presence_of_element_located((MobileBy.XPATH, '//XCUIElementTypeButton[@name="LOG IN"]')))
 #     # (driver.find_element_by_xpath('//XCUIElementTypeButton[@name="LOG IN"]'))
