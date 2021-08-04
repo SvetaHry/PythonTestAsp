@@ -1,3 +1,5 @@
+from enum import Enum
+
 # class DeviceCapabilitiesConstants:
 appiumHost = "http://127.0.0.1:4723/wd/hub"
 
@@ -76,3 +78,32 @@ ios_caps = {
 # self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 # el = self.driver.find_element_by_accessibility_id('item')
 # el.click()
+
+
+class Devices(Enum):
+
+    IOS = 'ios'
+    ANDROID = 'android'
+
+
+device_capabilities = {
+    Devices.IOS: {
+        "platformName": "iOS",
+        "platformVersion": "13.6",
+        "deviceName": "UPTech iPhone 7 Plus",
+        "automationName": "XCUITest",
+        "app": "/Users/svetlanahrytsenko/Aspiration.ipa",
+        "xcodeSigningId": "iPhone Developer",
+        "xcodeOrgId": "44GZA2S45U",
+        "udid": "2051d1f38b452091216a6a878eac9b8f856d0eae"
+    },
+    Devices.ANDROID: {
+        "platformName": "Android",
+        "platformVersion": "10",
+        "deviceName": "Galaxy S10e",
+        "automationName": "Appium",
+        "app": "/Users/svetlanahrytsenko/Downloads/app-alpha-stage.apk",
+        "deviceID": "R28M51Y8DDL"
+    }
+}
+
